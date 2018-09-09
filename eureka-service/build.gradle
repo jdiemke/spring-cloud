@@ -30,7 +30,9 @@ ext {
 
 dependencies {
 	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
-	compile('javax.xml.bind:jaxb-api')
+	compile('javax.xml.bind:jaxb-api:2.3.0')
+	compile('org.glassfish.jaxb:jaxb-runtime:2.3.0')
+	compile('javax.activation:javax.activation-api:1.2.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
