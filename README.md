@@ -17,3 +17,8 @@ docker build -t eureka-service .
 ```
 docker run -p 8070:8070 eureka-service
 ```
+## Run using docker-compose
+```
+docker-compuse build
+docker-compose up
+```

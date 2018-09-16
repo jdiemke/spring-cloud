@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  eureka-service:
+    build: ./eureka-service
+    ports:
+      - 8070:8070
+  computation-service:
+    build: ./computation-service
+    ports:
+      - 8071:8071
+    depends_on:
+      - eureka-service
+  client-service:
+    build: ./client-service
+    ports:
+      - 8072:8072
+    depends_on:
+      - eureka-service
+  gateway-service:
+    build: ./gateway-service
+    ports:
+      - 8073:8073
+    depends_on:
+      - eureka-service
