@@ -1,11 +1,11 @@
 # spring-cloud
 
-| Service             | Action         |
-| ------------------- | -------------- |
-| client-service      | localhost:8072 |
-| computation-service | localhost:8071 |
-| eureka-service      | localhost:8070 |
-| gateway-service     |                |
+| Service             | Action                      |
+| ------------------- | --------------------------- |
+| client-service      | localhost:8072              |
+| computation-service | localhost:8071              |
+| eureka-service      | localhost:8070              |
+| gateway-service     | localhost:8073/service-name |
 ## Build Docker Images
 ### Eureka Service
 ```
