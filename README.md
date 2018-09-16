@@ -31,4 +31,9 @@ docker build -t eureka-service .
 docker run -p 8070:8070 eureka-service
 ```
 ## References
+
+### Exception Handling
 * https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc
+* https://www.baeldung.com/exception-handling-for-rest-with-spring
+* https://www.baeldung.com/spring-mvc-controller-custom-http-status-code
+* https://www.baeldung.com/spring-response-status-exception
