@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface ComputationServiceClient {
 
     @RequestMapping(method = RequestMethod.GET, value = "/")
-    String getName();
+    Name getName();
 
 }

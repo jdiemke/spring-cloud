@@ -13,7 +13,7 @@ public class ClientServiceController {
 
     @RequestMapping("/")
     public String get() {
-        return "Hello " + computationServiceClient.getName() + "!";
+        return "Hello " + computationServiceClient.getName().value + "!";
     }
 
 }
