@@ -30,6 +30,15 @@ docker build -t eureka-service .
 ```
 docker run -p 8070:8070 eureka-service
 ```
+
+## TODO
+* Monitoring
+  * Prometheus
+  * Micrometer.IO (https://youtu.be/JAdxO1XboJY)
+  * Grafana
+* Tracing
+  * Zipkin
+
 ## References
 
 ### Exception Handling
